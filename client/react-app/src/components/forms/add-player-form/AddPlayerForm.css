@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+
+.label {
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-add {
+    background-color: #0067ee; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

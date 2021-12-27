@@ -1,0 +1,40 @@
+.container {
+  color: white;
+  /* border: 1px solid white; */
+  /* display: inline-block; */
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-player,
+.list-player {
+  display: inline-block;
+  width: 49%;
+  border: 1px solid white;
+  margin: 1%;
+  padding: 10px;
+  /* box-shadow: 5px 6px 9px white; */
+  transition: 1s;
+}
+
+.add-player:hover,
+.list-player:hover {
+  border: 4mm ridge green;
+  background-color: #e0e0e0;
+  color: black;
+}
+
+/* .h2-list-player {
+  margin-left: 5px;
+} */
